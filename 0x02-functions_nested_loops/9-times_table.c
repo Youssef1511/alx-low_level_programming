@@ -21,6 +21,11 @@ void times_table(void)
 			_putchar(',');
 			_putchar(' ');
 
+			/*
+			 * put space if product is a single number
+			 * place the first digit if its two numbers
+			*/
+
 			prod = num * mult;
 
 			if (prod <= 9)
