@@ -29,7 +29,7 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 		return (new);
 	}
 
-	for (z = 0; t && i < idx; z++)
+	for (z = 0; t && z < idx; z++)
 	{
 		if (z == idx - 1)
 		{
